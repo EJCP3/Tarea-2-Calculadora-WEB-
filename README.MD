@@ -1,6 +1,6 @@
 Tarea 2: Calculadora WEB
 
-![Mi captura de pantalla](/assets/Paginaweb.png)]
+![Mi captura de pantalla](/assets/Paginaweb.png)
 
 Tarea 2: Calculadora WEB (8 puntos)
 Haga una calculadora con HTML5 , JavaScript (ES5) adornada con CSS3, la cual
