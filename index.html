@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor">
+
+            <input class="resultado" id="resultado" type="textfield" placeholder="0" autofocus readonly > 
+            
+            
+            <div class="grupo-numero">
+                <button class="numero" onclick="show('9')">9</button>
+                <button class="numero" onclick="show('8')">8</button>
+                <button class="numero" onclick="show('7')">7</button>
+                <button class="numero" onclick="show('6')">6</button>
+                <button class="numero" onclick="show('5')">5</button>
+                <button class="numero" onclick="show('4')">4</button>
+                <button class="numero" onclick="show('3')">3</button>
+                <button class="numero" onclick="show('2')">2</button>
+                <button class="numero" onclick="show('1')">1</button>
+                <button class="numero" onclick="show('0')">0</button>
+                <button class="numero" onclick="show('.')">.</button>
+                <button class="símbolo" onclick="calc('=')">=</button>
+
+            </div>
+            <div class="grupo-símbolo">  
+              
+                <button class="símbolo" id="mostrarH">H</button>
+                <button class="símbolo" onclick="wipe()">C</button>
+                <button class="símbolo"  onclick="show('/')">/</button>
+                <button class="símbolo"  onclick="show('*')">*</button>
+                <button class="símbolo" onclick="show('-')">-</button>
+                <button class="símbolo" onclick="show('+')">+</button>
+               
+            </div>
+           
+        </div>
+
+        <div class="panel" id="panel">
+            <h1>Historial</h1>
+           <p></p>
+        </div>
+    </main>
+    <script src="assets/css/js/main.js"></script>
+</body>
+</html>
